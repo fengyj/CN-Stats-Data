@@ -1,0 +1,7 @@
+
+[db]
+server = '127.0.0.1'
+port = 5432
+db = 'stats-raw-data'
+user = 'db_rw'
+password = 'DB_RW'
