@@ -5,8 +5,8 @@ __all__ = ['DbConfig']
 
 @dataclass
 class DbConfig:
-    server: str = None
-    port: int = None
-    db: str = None
-    user: str = None
-    password: str = None
+    server: str
+    port: int
+    db: str
+    user: str
+    password: str 

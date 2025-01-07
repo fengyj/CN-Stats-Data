@@ -1,12 +1,12 @@
-import tomllib
 import pathlib
+import tomllib
 from typing import Any
 
 import psycopg2
 
-from db.db_config import DbConfig
+from cn_stats_data.db.db_config import DbConfig
 
-__all__ = ['db_config']
+__all__ = ['db_config', 'metric_code_dao', 'metric_data_dao', 'region_code_dao', 'process_data_dao', 'models']
 
 
 def _get_db_config(cfg: dict[str, Any]) -> DbConfig:

@@ -1,5 +1,6 @@
-from data.db_code import DbCode
-from data import MetricCode
+from cn_stats_data.data.db_code import DbCode
+
+from cn_stats_data.data.metric_code import MetricCode
 
 
 def main():
